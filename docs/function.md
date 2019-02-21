@@ -330,7 +330,7 @@ external process_on_exit: (
   int => unit
 ) => unit = "process.on";
 
-let () = process_on_exit(exit_code =>
+process_on_exit(exit_code =>
   Js.log("error code: " ++ string_of_int(exit_code))
 );
 ```
