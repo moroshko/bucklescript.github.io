@@ -429,7 +429,7 @@ let addFiveOops = add(5);
 Error:
 
 ```
-This is an uncurried bucklescript function. It must be applied with [@bs].
+This is an uncurried BuckleScript function. It must be applied with a dot.
 ```
 
 #### Extra Solution
