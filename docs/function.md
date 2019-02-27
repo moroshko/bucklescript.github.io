@@ -428,7 +428,11 @@ let addFiveOops = add(5);
 
 Error:
 
+```ocaml
+This is an uncurried BuckleScript function. It must be applied with a `[@bs]`.
 ```
+
+```reason
 This is an uncurried BuckleScript function. It must be applied with a dot.
 ```
 
